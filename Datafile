@@ -1,0 +1,14 @@
+User: UUID=8cb42617-f18e-470c-9f14-f3621acaa14b'
+FirstName='Ivan'
+MiddleName='Ivanov'
+SecondName='Ivanovich'
+Login='Medme'
+Password='pass'
+
+User: UUID=9b9d0c5d-b4a6-42a8-94db-eed2ac46ca12'
+FirstName='Ivan1'
+MiddleName='Ivanov1'
+SecondName='Ivanovich1'
+Login='Medme1'
+Password='pass1'
+
