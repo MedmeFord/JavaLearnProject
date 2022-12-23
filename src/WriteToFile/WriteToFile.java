@@ -1,5 +1,8 @@
+package WriteToFile;
+
+import UserPackacge.User;
+
 import java.io.*;
-import java.nio.file.OpenOption;
 import java.util.ArrayList;
 
 public class WriteToFile {

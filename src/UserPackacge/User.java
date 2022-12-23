@@ -1,3 +1,5 @@
+package UserPackacge;
+
 import java.util.UUID;
 
 public class User {
@@ -19,7 +21,7 @@ public class User {
 
     @Override
     public String toString() {
-        return "User: " +
+        return "UserPackacge.User: " +
                 "UUID=" + UUID + "\'\n" +
                 "FirstName='" + firstName + "\'\n"+
                 "MiddleName='" + middleName +"\'\n" +
