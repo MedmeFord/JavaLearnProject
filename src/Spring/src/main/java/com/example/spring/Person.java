@@ -1,15 +1,10 @@
-package SpringLearning;
+package com.example.spring;
 
 public class Person {
-    private Pet pet;
+    Pet pet;
 
     public Person(Pet pet) {
         this.pet = pet;
-    }
-
-    public void callYouPet() {
-        System.out.println("Hello my pet!");
-        pet.say();
     }
 
     public Pet getPet() {
@@ -18,5 +13,10 @@ public class Person {
 
     public void setPet(Pet pet) {
         this.pet = pet;
+    }
+
+    public void callYouPet() {
+        System.out.println("Hello my Pet!");
+        pet.say();
     }
 }
