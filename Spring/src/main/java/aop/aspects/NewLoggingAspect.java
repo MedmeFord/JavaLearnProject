@@ -13,7 +13,14 @@ public class NewLoggingAspect {
         System.out.println("arroundReturnBookLoggingAdvice: in library trying return book");
 
         long begin = System.currentTimeMillis();
-        Object targetMethodResult = proceedingJoinPoint.proceed();
+        Object targetMethodResult = null;
+        try {
+            targetMethodResult = proceedingJoinPoint.proceed();
+        } catch (Exception e) {
+            System.out.println("arroundReturnBookLoggingAdvice: catch exception");
+            targetMethodResult = "Neizvestnoe name Book";
+        }
+
         long end = System.currentTimeMillis();
 
         System.out.println("arroundReturnBookLoggingAdvice: in library succeful return book");
